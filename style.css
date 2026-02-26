@@ -42,12 +42,12 @@ button:hover {
 
 /* Heart style */
 .heart {
-    position: absolute;
+    position: fixed;      /* instead of absolute */
     color: pink;
     font-size: 20px;
     animation: floatUp linear infinite;
+    pointer-events: none; /* prevents blocking clicks */
 }
-
 @keyframes floatUp {
     from {
         transform: translateY(100vh);

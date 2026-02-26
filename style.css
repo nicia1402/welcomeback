@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background: #0f0f1a;
-    overflow: hidden;
+    overflow-x: hidden;   /* only hide side scroll */
+    overflow-y: auto;     /* allow vertical scroll */
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
